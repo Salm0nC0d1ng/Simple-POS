@@ -59,18 +59,22 @@
                     onKeyDown="return false"
                     value="0"
                 />
+                <br />
             </div>
+            <br />
+            <br />
+            <button type="button" id="total" onclick="totalPrice()">
+                Total Price
+            </button>
         </div>
         <br />
-        <hr />
         <h3>Payment</h3>
+        <hr />
+        <br />
         <label for="cash">Cash</label>
         <input type="number" name="cash" id="cash" min="1" value="0" />
         <br />
         <br />
-        <button type="button" id="total" onclick="totalPrice()">
-            Total Price
-        </button>
         <button type="button" id="change" onclick="payMoney()">Pay!</button>
         <script src="app.js"></script>
     </body>
